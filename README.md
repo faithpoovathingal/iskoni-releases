@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/faithpoovathingal/iskoni-releases/main/assets/LOGO%20ISKONI.jpg" alt="ISKONI Logo" width="280" height="150" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(229, 9, 20, 0.4);" onerror="this.src='https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=200&auto=format&fit=crop&q=80'" />
+  <img src="https://raw.githubusercontent.com/faithpoovathingal/iskoni-releases/main/assets/logo.png" alt="ISKONI Logo" width="280" height="150" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(229, 9, 20, 0.4);" onerror="this.src='https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=200&auto=format&fit=crop&q=80'" />
 
   # ISKONI for macOS
   
