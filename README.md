@@ -22,20 +22,24 @@
 
 ## 📽️ About ISKONI
 
-**ISKONI** is an Electron & React-powered desktop streaming hub engineered for fast, clean, and bufferless entertainment. Built with a unified dark UI, seamless TMDB discovery, in-player episode switching, local subtitle support, and background over-the-air updates.
+**ISKONI** is an Electron & React-powered desktop streaming hub engineered for fast, clean, and bufferless entertainment. Built with a unified dark UI, seamless TMDB discovery, in-player episode switching, local subtitle support, intelligent timeline filtering, and background over-the-air updates.
 
 ---
 
 ## ✨ Key Features
 
 - ⚡ **Multi-Stream Failover Engine:** Connects to fast VOD streaming mirrors with real-time server switching.
-- 📺 **In-Player Episode Drawer & Quick Navigation:** Switch seasons, browse full episode guides with thumbnails, or jump to next/previous episodes without exiting fullscreen.
-- 🔖 **My List & Watchlist:** Bookmark your favorite movies and shows to access them instantly from local offline cache.
-- 🕒 **Continue Watching History:** Resume playback right from where you left off.
-- 🖼️ **Picture-in-Picture (PiP) Mode:** Keep watching in a floating, always-on-top corner window while multitasking.
-- 💬 **Custom Subtitle Loader:** Drag and drop or load your own `.srt` or `.vtt` subtitle files directly over any stream.
-- 🔄 **In-App Over-The-Air (OTA) Updates:** Seamless background update downloads with live progress indicators.
-- 🔍 **Filter by Genre & Language:** Explore content across languages including Malayalam, Hindi, Tamil, Telugu, English, Korean, and Japanese.
+- ⏭️ **Smart Up Next Prompt:** Automatically displays a sleek next-episode prompt with thumbnail previews and a 15-second countdown during the final 45 seconds of an episode.
+- ✨ **Instant Up Next Preview:** Dedicated preview button in the top bar to toggle and test the Up Next card on demand.
+- 🛑 **"Stay" Mode:** Easily dismiss upcoming episode prompts with a single click to finish watching end credits uninterrupted.
+- 📺 **In-Player Episode Drawer & Quick Nav:** Browse seasons and full episode lists with rich artwork without exiting playback.
+- 🖥️ **Integrated Top-Bar Fullscreen:** Direct one-click toggle control right in the top player bar.
+- 🛡️ **Anti-Ad Telemetry Protection:** Built-in runtime filter that prevents pre-roll ads from corrupting real timeline durations.
+- 🔖 **My List & Watchlist:** Bookmark movies and TV shows for instant access from local offline storage.
+- 🕒 **Resume & History Tracking:** Automatically saves playback state to pick up right where you left off.
+- 💬 **Custom Subtitle Loader:** Load external `.srt` or `.vtt` subtitle files directly over active streams.
+- 🔄 **In-App Over-The-Air (OTA) Updates:** Automated update detection against the latest releases.
+- 🔍 **Genre & Language Discovery:** Filter content across Malayalam, Hindi, Tamil, Telugu, English, Korean, and Japanese.
 
 ---
 
@@ -44,18 +48,19 @@
 | Key | Action |
 | :--- | :--- |
 | <kbd>F</kbd> | Toggle Fullscreen |
+| <kbd>T</kbd> | Toggle / Preview Up Next Card |
 | <kbd>N</kbd> | Jump to Next Episode |
 | <kbd>P</kbd> | Jump to Previous Episode |
-| <kbd>Esc</kbd> | Exit Episode Drawer / Fullscreen / Player |
+| <kbd>Esc</kbd> | Close Episode Drawer / Exit Fullscreen / Close Player |
 
 ---
 
 ## 📥 Installation Guide (macOS)
 
-1. Head over to the **[Latest Release](https://github.com/faithpoovathingal/iskoni-releases/releases/latest)** page.
-2. Download **`ISKONI 1.0.1.pkg`** (or the latest version).
+1. Navigate to the **[Latest Release](https://github.com/faithpoovathingal/iskoni-releases/releases/latest)** page.
+2. Download the latest **`ISKONI_<version>.pkg`** installer.
 3. **Right-Click (or Control + Click)** the downloaded `.pkg` file and select **Open**.
-4. Follow the installation prompts to place ISKONI directly into your `/Applications` folder.
+4. Follow the macOS installer prompts to add ISKONI to your `/Applications` folder.
 5. Launch **ISKONI** and enjoy streaming!
 
 ---
