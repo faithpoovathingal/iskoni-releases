@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
-  "notes": "v1.0.3: Player shortcuts, UI spacing, stream duration sync, and auto-next episode.",
-  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.3/ISKONI_1.0.3.pkg"
+  "version": "1.0.4",
+  "notes": "v1.0.4: Search empty state handling, spacebar typing in search, and persistent player header spacing.",
+  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.4/ISKONI_1.0.4.pkg"
 }
