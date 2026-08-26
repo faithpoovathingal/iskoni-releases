@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
-  "notes": "• Added Up Next episode card with countdown timer & Stay option\n• Added manual Up Next preview toggle (✨) in player bar\n• Added Fullscreen toggle button in top controls\n• Fixed stream timeline duration glitches from ad telemetry\n• UI and navigation improvements",
-  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.2/ISKONI_1.0.2.pkg"
+  "version": "1.0.3",
+  "notes": "v1.0.3: Player shortcuts, UI spacing, stream duration sync, and auto-next episode.",
+  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/ISKONI_1.0.3.pkg"
 }
