@@ -1,5 +1,7 @@
 {
-  "version": "1.0.4",
-  "notes": "v1.0.4: Search empty state handling, spacebar typing in search, and persistent player header spacing.",
-  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.4/ISKONI_1.0.4.pkg"
+  "version": "1.0.5",
+  "name": "ISKONI Desktop v1.0.5",
+  "notes": "Added native Settings panel, fixed player header controls spacing, resolved duration telemetry calculation glitches, and enhanced multi-server streaming pipeline.",
+  "pub_date": "2026-08-27T00:00:00Z",
+  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.5/ISKONI-v1.0.5-macOS-arm64.pkg"
 }
