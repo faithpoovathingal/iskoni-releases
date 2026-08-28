@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "name": "ISKONI Desktop v1.0.5",
-  "notes": "Added native Settings panel, fixed player header controls spacing, resolved duration telemetry calculation glitches, and enhanced multi-server streaming pipeline.",
-  "pub_date": "2026-08-27T00:00:00Z",
-  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.5/ISKONI_1.0.5.pkg"
+  "version": "1.0.6",
+  "name": "ISKONI Desktop v1.0.6",
+  "notes": "• Custom Native Player: Replaced external embeds with a built-in direct HLS player featuring ad-free playback, precision seeking, and adaptive quality selection.\n• Advanced Subtitle Engine: Prioritizes English 3 by default, saves subtitle preferences to persistent local storage across restarts, and introduces an in-player Style & Sync customizer (timing offset, font sizing, color swatches, and background opacity).\n• Streamlined Streaming Pipeline: Upgraded resolvers to direct high-speed endpoints (Orion, Astra, Lyra, Hindi, CineSrc) with clean UI badges.\n• UI & Performance: Cleaned redundant static server options from Settings and resolved video frame compositing handoffs.",
+  "pub_date": "2026-08-28T00:00:00Z",
+  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.6/ISKONI_1.0.6.pkg"
 }
