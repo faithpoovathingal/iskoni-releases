@@ -1,7 +1,7 @@
 {
-  "version": "1.0.6",
-  "name": "ISKONI Desktop v1.0.6",
-  "notes": "• Custom Native Player: Replaced external embeds with a built-in direct HLS player featuring ad-free playback, precision seeking, and adaptive quality selection.\n• Advanced Subtitle Engine: Prioritizes English 3 by default, saves subtitle preferences to persistent local storage across restarts, and introduces an in-player Style & Sync customizer (timing offset, font sizing, color swatches, and background opacity).\n• Streamlined Streaming Pipeline: Upgraded resolvers to direct high-speed endpoints (Orion, Astra, Lyra, Hindi, CineSrc) with clean UI badges.\n• UI & Performance: Cleaned redundant static server options from Settings and resolved video frame compositing handoffs.",
-  "pub_date": "2026-08-28T00:00:00Z",
-  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.6/ISKONI_1.0.6.pkg"
+  "version": "1.0.7",
+  "name": "ISKONI Desktop v1.0.7",
+  "notes": "• Aspect Ratio Controls: Added a dedicated aspect ratio button directly on the player.\n• Player & Playback Fixes: Resolved the hidden volume bar bug in the Orion server player, fixed volume mute-to-unmute behavior, and corrected the play next card navigation bug.\n• History & Navigation Sync: Added permanent watch history deletion and fixed seamless SPA tab navigation synchronization.",
+  "pub_date": "2026-09-07T00:00:00Z",
+  "downloadUrl": "https://github.com/faithpoovathingal/iskoni-releases/releases/download/v1.0.7/ISKONI_1.0.7.pkg"
 }
