@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.7",
   "name": "ISKONI Desktop v1.0.7",
   "notes": "• Aspect Ratio Controls: Added a dedicated aspect ratio button directly on the player.\n• Player & Playback Fixes: Resolved the hidden volume bar bug in the Orion server player, fixed volume mute-to-unmute behavior, and corrected the play next card navigation bug.\n• History & Navigation Sync: Added permanent watch history deletion and fixed seamless SPA tab navigation synchronization.",
   "pub_date": "2026-09-07T00:00:00Z",
