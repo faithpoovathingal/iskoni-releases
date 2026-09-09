@@ -8,7 +8,7 @@
 
   [![Latest Release](https://img.shields.io/github/v/release/faithpoovathingal/iskoni-releases?color=E50914&label=Version&style=for-the-badge)](https://github.com/faithpoovathingal/iskoni-releases/releases/latest)
   [![Platform](https://img.shields.io/badge/Platform-macOS%20Apple%20Silicon%20(M1%2FM2%2FM3%2FM4)-black?style=for-the-badge&logo=apple)](https://github.com/faithpoovathingal/iskoni-releases/releases/latest)
-  [![License](https://img.shields.io/badge/Status-Active%20v1.0.6-red?style=for-the-badge)](https://github.com/faithpoovathingal/iskoni-releases)
+  [![License](https://img.shields.io/badge/Status-Active%20v1.0.7-red?style=for-the-badge)](https://github.com/faithpoovathingal/iskoni-releases)
 
   <br />
 
@@ -22,13 +22,14 @@
 
 ## 📽️ About ISKONI
 
-**ISKONI** is an Electron and React-powered desktop streaming client engineered for clean, bufferless entertainment. Built with a custom native HLS playback engine, seamless TMDB discovery, persistent subtitle customization, direct multi-server failover resolvers, and background update management.
+**ISKONI** is an Electron and React-powered desktop streaming client engineered for clean, bufferless entertainment. Built with a custom native HLS playback engine, seamless TMDB discovery, persistent subtitle customization, direct multi-server failover resolvers, dynamic in-frame volume control, and automated background update delivery.
 
 ---
 
 ## ✨ Key Features
 
 - 🎬 **Custom Built-In Native Player:** Fully integrated direct HLS player delivering ad-free playback, live buffer telemetry, precise scrubbing, and adaptive quality switching up to 1080p HD.
+- 🔊 **Dynamic In-Player Volume & Audio Slider:** Native volume slider and mute controls injected directly into player streams with state persistence across playback sessions.
 - 💬 **Advanced Subtitle Engine & Memory:**
   - **Smart Default:** Prioritizes **English 3** tracks automatically on launch, falling back cleanly to standard English when needed.
   - **Cross-Session Memory:** Saves your subtitle selection to persistent local storage across resumes, restarts, and app updates.
@@ -37,7 +38,7 @@
 - ⏭️ **Smart Up Next Prompt:** Automated card preview with episode artwork and a 15-second countdown during the final 45 seconds of a TV show.
 - 🛑 **"Stay" Credit Mode:** Dismiss auto-advance prompts with one click to finish watching post-credit scenes uninterrupted.
 - 📺 **In-Player Episode Drawer:** Browse seasons and full episode lists with rich artwork without exiting active playback.
-- 🖥️ **Aspect Ratio & Display Control:** Seamless letterbox containment and one-click integrated fullscreen toggle embedded into the player header.
+- 🖥️ **Aspect Ratio & Display Control:** Instant aspect-ratio cycling (`contain`, `cover`, `fill`) with keybind support and clean fullscreen integration.
 - 🔖 **My List & Watchlist:** Bookmark movies and TV shows for instant offline access.
 - 🕒 **Precision Resume Engine:** Automatically saves playback progress to pick up seamlessly where you left off.
 - 🔄 **Direct One-Click OTA Updates:** In-app update notifications with a dedicated **Update Now** action that downloads and launches new `.pkg` installers automatically.
@@ -51,6 +52,7 @@
 | :--- | :--- |
 | <kbd>Space</kbd> / <kbd>K</kbd> | Play / Pause |
 | <kbd>←</kbd> / <kbd>→</kbd> | Seek Backward / Forward 10 Seconds |
+| <kbd>A</kbd> | Cycle Aspect Ratio (`contain` / `cover` / `fill`) |
 | <kbd>F</kbd> | Toggle Fullscreen |
 | <kbd>T</kbd> | Toggle / Preview Up Next Card |
 | <kbd>N</kbd> | Jump to Next Episode |
@@ -62,7 +64,7 @@
 ## 📥 Installation Guide (macOS)
 
 1. Open the **[Latest Release](https://github.com/faithpoovathingal/iskoni-releases/releases/latest)** page.
-2. Download **`ISKONI_1.0.6.pkg`**.
+2. Download **`ISKONI_1.0.7.pkg`**.
 3. **Right-Click (or Control + Click)** the downloaded `.pkg` file and select **Open**.
 4. Follow the macOS installer prompts to install ISKONI into your `/Applications` directory.
 5. Launch **ISKONI** from Spotlight or Launchpad.
